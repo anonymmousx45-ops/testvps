@@ -1,9 +1,16 @@
 {
-  "name": "Ubuntu VPS Codespace",
+  "name": "Lightweight VPS Codespace",
   "dockerFile": "../Dockerfile",
   "remoteUser": "root",
   "postCreateCommand": "/workspace/.devcontainer/post-create.sh",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
-  }
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-azuretools.vscode-docker",
+    "eamodio.gitlens",
+    "timonwong.shellcheck",
+    "shd101wyy.markdown-preview-enhanced"
+  ]
 }
