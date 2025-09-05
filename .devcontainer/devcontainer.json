@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu VPS Codespace",
+  "dockerFile": "../Dockerfile",
+  "remoteUser": "root",
+  "postCreateCommand": "/workspace/.devcontainer/post-create.sh",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
